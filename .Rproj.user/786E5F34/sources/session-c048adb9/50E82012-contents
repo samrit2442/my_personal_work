@@ -1,0 +1,8 @@
+devtools::install_github("ropenscilabs/opencv")
+
+library(opencv)
+library(psych)
+
+
+
+

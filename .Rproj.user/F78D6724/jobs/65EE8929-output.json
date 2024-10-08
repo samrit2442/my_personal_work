@@ -1,0 +1,5 @@
+[2,"\n"]
+[1,"pandoc \n  to: latex\n  output-file: r_course.tex\n  standalone: true\n  pdf-engine: pdflatex\n  variables:\n    graphics: true\n    tables: true\n  default-image-extension: pdf\n  toc: true\n  toc-depth: 3\n  \nmetadata\n  documentclass: scrartcl\n  classoption:\n    - DIV=11\n    - numbers=noendperiod\n  papersize: letter\n  header-includes:\n    - '\\KOMAoption{captions}{tableheading}'\n  block-headings: true\n  title: R Programming Course\n  author: Nibiru Biswas\n  date: '2023-01-28'\n  editor: visual\n  \n"]
+[1,"running pdflatex - 1\n"]
+[1,"  This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex.fmt)\n   restricted \\write18 enabled.\n  entering extended mode\n  \nrunning pdflatex - 2\n"]
+[1,"  This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex.fmt)\n   restricted \\write18 enabled.\n  entering extended mode\n  \n\nOutput created: r_course.pdf\n\nWatching files for changes\nBrowse at http://localhost:5422/web/viewer.html\n"]

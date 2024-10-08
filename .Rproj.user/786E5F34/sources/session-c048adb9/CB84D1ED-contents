@@ -1,0 +1,29 @@
+library(tibble)
+library(dplyr)
+
+dms_to_deg <- function(d, m, s, digit) {
+  if (m >= 60) {
+    stop("Minute should be less than 60.")
+  }
+  
+  df2 <- tibble(d = d, m = m, s = s) %>%
+    mutate(deg = d + (m / 60) + (s / 3600)) %>%
+    mutate(deg = round(deg, digit))
+  
+  return(df2 %>% pull(deg))
+}
+
+# Simplified test case to check if debugging mode is still triggered
+d <- 23
+m <- 5
+s <- 34
+digit <- 4
+
+# Call the function
+result <- dms_to_deg(d, m, s, digit)
+print(result)
+
+
+options(error = NULL)
+options(browser = NULL)
+undebug(dms_to_deg)

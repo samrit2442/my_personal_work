@@ -1,0 +1,53 @@
+---
+title: "R Programming Course"
+subtitle: "A Cosmic Charade initiative to teach R to all Cosmic guys across the globe"
+author: "Nibiru Biswas"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+toc: true
+toc-depth: 3
+format:
+  html: default
+  pdf: 
+    pdf-engine: pdflatex
+editor: visual
+---
+
+![](Rlogo.png){fig-align="center" width="345"}
+
+::: {style="text-align: center; font-family: georgia; font-size: 25px"}
+***Let's debunk the myth...***
+
+Python is used for most of the scientific computations among academics, researches as well as industries...
+:::
+
+# What is R?
+
+**R** is an open-source (free) programming language and environment mainly for statistical computing and graphics. It is similar to *S* language which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. R was initially written by *Robert Gentleman* and *Ross Ihaka* (also known as "R & R") of the Statistics Department of the University of Auckland.
+
+R provides a wide variety of statistical and graphical techniques and highly extensible.
+
+The first official R version 1.0 was released on ***29 February 2000***. (An astronomical day indeed)
+
+# Why R?
+
+Because of its simple representation and clear codes. R will help you to do data science and any scientific computation of Physics, Chemistry, Mathematics and Astronomy efficiently and reproducibly, and have some fun along the way. It is more comfortable, faster and user friendly.
+
+R is amazing for visualizations and ad-hoc reports. And R Shiny is a robust web development framework in B2B. It also helps us to create a stunning dashboard that allows for advanced data manipulation unlike your regular dashboard as Shiny is much more equipped than any other web development framework available in the market.
+
+R's formula syntax for declaring models and support for statistical as well as mathematical analysis is a plus.
+
+Also, R is the golden standard for biologists, paleontologists, medical researchers and a lot more natural sciences as well as economists and econometrics.
+
+R is hands-down the most accessible programming language for Excel users. Here's an example
+
+Excel:
+
+``` excel
+=AVERAGE(my_table[my_col])
+```
+
+R:
+
+``` r
+mean(my_table$my_col)
+```

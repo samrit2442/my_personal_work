@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/996225/e6ec61669bc34a0fa9fb475a136cffd4
+bundleId: https://api.rpubs.com/api/v1/document/996225/e6ec61669bc34a0fa9fb475a136cffd4
+url: http://rpubs.com/cosmic_charade/996225
+when: 1680117591.14338
+lastSyncTime: 1680117591.1434

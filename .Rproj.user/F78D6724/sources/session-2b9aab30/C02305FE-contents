@@ -1,0 +1,20 @@
+---
+title: "R Programming Course"
+author: "Nibiru Biswas"
+date: 2023-01-28
+toc: true
+toc-depth: 3
+format:
+  html: default
+  pdf: 
+    pdf-engine: pdflatex
+editor: visual
+---
+
+![](Rlogo.png){fig-align="center" width="345"}
+
+# What is R?
+
+R is a open-source (free) programming language and environment mainly for statistical computing and graphics. It is similar to S language which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. R was initially written by Robert Gentleman and Ross Ihaka (also known as "R & R") of the Statistics Department of the University of Auckland.
+
+R provides a wide variety of statistical and graphical techniques and highly extensible.
