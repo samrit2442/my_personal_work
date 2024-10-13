@@ -25,3 +25,9 @@ cat(bgYellow("Yellow Background"))
 cat(italic$bold("Bold and Italic")) # Combining two or more style using $ operator
 cat(italic$red("Red and Italic"))
 cat(italic$cyan$bold$bgYellow("Bold, Italic text in Cyan color with Yellow background"))
+
+
+cat(bold("This is the BOLD text"))
+
+
+
