@@ -28,6 +28,6 @@ cat(italic$cyan$bold$bgYellow("Bold, Italic text in Cyan color with Yellow backg
 
 
 cat(bold("This is the BOLD text"))
-
+cat(italic("This is the Italic text"))
 
 
