@@ -63,4 +63,28 @@ ffcounts |>
   cols_align(align="left") |>
   opt_row_striping(row_striping = TRUE)
 
+### ----------------------------------------------------------------------------
+
+library(tidyverse)
+my_followers <- get_followers("samrit24.bsky.social", limit = Inf) |> 
+  # remove columns containing more complex data
+  select(-ends_with("_data"))
+my_follows <- get_follows("samrit24.bsky.social", limit = Inf) |> 
+  select(-ends_with("_data"))
+not_yet_follows <- my_followers |> 
+  filter(!actor_handle %in% my_follows$actor_handle)
+
+
+follows_of_follows <- my_follows |>
+  pull(actor_handle) |> 
+  # iterate over follows getting their follows
+  map(function(handle) {
+    get_follows(handle, limit = Inf, verbose = FALSE) |>
+      mutate(from = handle)
+  }, .progress = interactive()) |> 
+  bind_rows() |> 
+  # not sure what this means
+  filter(actor_handle != "handle.invalid")
+
+  
 
